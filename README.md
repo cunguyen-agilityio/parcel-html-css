@@ -4,7 +4,7 @@ Create and build a base app for HTML/CSS with Parcel. Parcel is a zero configura
 
 Author: Cu Nguyen &lt;[cu.nguyen@asnet.com.vn](cu.nguyen@asnet.com.vn)&gt;
 
-Deploy to Netlify: [Updating...]()
+Deploy to Netlify: [https://parcel-html-css.cunguyen.com/](https://parcel-html-css.cunguyen.com/)
 
 ## Targets
 
