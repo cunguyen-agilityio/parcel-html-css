@@ -1,0 +1,16 @@
+{
+  "name": "parcel-html-css",
+  "version": "1.0.0",
+  "description": "Create and build a base app for HTML/CSS with Parcel.",
+  "scripts": {
+    "start": "rm -rf dist && rm -rf .parcel-cache && parcel ./src/pages/*.html --no-cache --no-source-maps",
+    "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/pages/*.html --no-cache --no-source-maps --dist-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}

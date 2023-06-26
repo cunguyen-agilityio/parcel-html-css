@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+  background: #000;
+  margin: 0;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome::before, .welcome::after {
+  content: '';
+  left: 50%;
+  top: 22%;
+  position: absolute;
+  filter: blur(45px);
+}
+
+.welcome::before {
+  background: linear-gradient( to bottom right, rgba(1, 65, 255, 0), rgba(1, 65, 255, 0), rgba(1, 65, 255, 0.3) );
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+  z-index: -2;
+}
+
+.welcome::after {
+  background: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.welcome-title {
+  font-size: 32px;
+}
+
+.welcome-link {
+  color: #fff;
+  text-decoration: none;
+}

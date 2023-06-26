@@ -1,0 +1,12 @@
+# Build & development
+/dist
+/build
+
+# Packages
+/node_modules
+
+# Cache
+.parcel-cache
+
+# Logs file
+*.log
